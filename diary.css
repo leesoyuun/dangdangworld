@@ -1,0 +1,66 @@
+.box2{
+    display:flex;
+    flex-direction: column;
+    height:80px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.slide{
+    overflow-x:hidden; 
+    overflow-y:auto; 
+}
+.calendar{
+    display: flex;
+    align-items: center;
+}
+.today{
+    display: flex;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight: bold;
+    flex-direction: column;
+    font-size:20px;
+    color:#4f85a7;
+}
+.date{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    color:gray;
+    margin:10px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    align-items: center; 
+
+}
+.day {
+    margin-top:10px;
+    flex:0 0 1.7em;
+    text-align: center;
+}
+.blue{color:blue;}
+.red{color:red;}
+.diary_box{
+    margin-bottom: 2rem;
+    border:1px solid grey;
+    margin:10px;
+    
+}
+.diary_time{
+    margin-left:10px;
+    margin-top:20px;
+    font-weight:bold;
+    color:#4f85a7;
+}
+.content{
+    text-align: center;
+    line-height:1.7;
+    margin: 5px;
+ 
+}
+.somi_diary1{
+    margin-top: 10px;
+    border: 1px solid black;
+}
