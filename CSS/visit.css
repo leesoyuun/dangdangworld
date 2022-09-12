@@ -1,0 +1,77 @@
+/* 방명록의 Center_container 의 흰색 상자 부분 */
+.visitor {
+    flex: 8;
+    position: relative;
+}
+/* 방명록 레이아웃 (스크롤을 위해 영역 지정) */
+.visitors_box{
+    position: absolute;
+    top: 1em;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    /* 스크롤 자동 생성 */
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* 방명록을 게시글 단위로 묶어 레이아웃 정의 */
+.post_in_visitors {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* 게시글의 제목 */
+.title{
+    flex: none;
+    padding: 7px;
+    padding-left: 15px;
+    background-color: #e0e0e0;
+    font-size: small;
+    font-family: 'NeoDunggeunmo';
+}
+/* 게시글의 내용 */
+.contents{
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    margin-top:3px;
+    margin-bottom: 3px;
+    
+}
+/* 게시글 내용의 이미지 부분 */
+.profile {
+    flex: 0 0 8em;
+    height: 8em;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_1 {
+    background-image: url("./hwang.jpg");
+}
+.image_2 {
+    background-image: url("./puppy.jpg");
+}
+/* 배경 이미지 3 */
+.image_3 {
+    background-image: url("./alsong.jpg");
+}
+/* 프로필 이미지 속성 */
+.image_in_contents > img {
+    width: 90%;
+}
+/* 게시글 내용의 텍스트 부분 */
+.sub_text {
+    flex: auto;
+    padding: 1em;
+    padding-left: 1.5em;
+    font-size: small;
+    font-family: 'KyoboHand';
+}
+/* 게시글 제목의 파란색상 */
+.blue_point_color {
+    color: #717fc7;
+}
